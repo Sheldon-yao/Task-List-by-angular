@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css"/>
+  <style>
+    body{
+      max-width: 600px;
+      }
+    ul{
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body class="container">
+    <header >
+      <h1 class="display-3">任务列表</h1>
+      <hr/>
+    </header>
+    <section>
+      <form class="input-group input-group-lg">
+        <input type="text"class="form-control"/>
+        <span class="input-group-btn">
+          <button class="btn btn-default">添加</button>
+        </span>
+      </form>
+      <ul class="list-group m-y-1">
+        <li class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox"/>
+              <span>学英文</span>
+            </label>
+          </div>
+        </li>
+      </ul>
+      <p>总共<strong>10</strong>个任务，完成<strong>5</strong>个</p>
+    </section>
+<script src="bootstrap/js/angular-1.5.8.js"></script>
+</body>
+</html>
